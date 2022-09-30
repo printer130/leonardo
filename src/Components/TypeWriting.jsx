@@ -43,9 +43,9 @@ export default function TypeWriting() {
 
       typewriter
         .pauseFor(2500)
-        .typeString(`<span style="color: red;"=>${newLineCmd} nmap </span>`)
+        .typeString(`<span style="color: #BF4040;"=>${newLineCmd} nmap </span>`)
         .pauseFor(300)
-        .typeString('<span style="color: green;">-sS --min-rate 5000 -p- --open -vvv -n -Pn 76.76.21.241 -oG openPorts</span>')
+        .typeString('<span style="color: #40BF43;">-sS --min-rate 5000 -p- --open -vvv -n -Pn 76.76.21.241 -oG openPorts</span>')
         .pauseFor(4000)
         .typeString(`<span style="display: block; color:darkcyan;">Starting Nmap 7.92 ( https://nmap.org ) at ${date} ${dateTime} -04</span>`)
         .pauseFor(5000)
@@ -68,11 +68,12 @@ export default function TypeWriting() {
   return (
     <>
       <div className='pwd'>
-        <Heart />
         <Fire />
-        <span id='blockCode'> ~/c/cv <img src='github.webp' id='github' />
+        <span id='blockCode'>
+        ~/portfolio
+        <img src='github.webp' id='github' />
           <span id='gitlog'> main </span>
-          <span id='time'>13s</span>
+          <span id='time'>6.59s</span>
         </span>
       </div>
       <div id='nmap' ref={node} />
