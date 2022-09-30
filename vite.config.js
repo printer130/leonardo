@@ -7,8 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'typewriter-effect/dist/core',
-        './node_modules/typewriter-effect/dist/core'
+
       ]
     }
   }
