@@ -4,8 +4,8 @@ import { Footer } from './Components/Footer'
 import { Hero } from './Components/Hero'
 import { Layout } from './Components/Layout'
 import { Proyects } from './Components/Proyects'
-import TypeWriting from './Components/TypeWriting'
-import { Editor } from './Components/Editor'
+/* import TypeWriting from './Components/TypeWriting'
+ */import { Editor } from './Components/Editor'
 import { Certificates } from './Components/Certificates'
 
 function App () {
@@ -17,7 +17,7 @@ function App () {
       <Layout>
         <Proyects />
         <About />
-        <TypeWriting />
+        {/* <TypeWriting /> */}
         <Certificates />
       </Layout>
       <Footer />
