@@ -8,7 +8,7 @@ export function Hijack () {
   return (
     <LayoutProject direction>
       <Video
-        src='https://res.cloudinary.com/djc1umong/video/upload/v1663289304/gym_rknnsm.webm'
+        src='https://res.cloudinary.com/djc1umong/video/upload/v1664594201/WhatsApp_Video_2022-09-30_at_10.30.08_PM_2_cq95fm.webm'
       />
       <Container direction>
         <Title>Hijack | Blog</Title>
