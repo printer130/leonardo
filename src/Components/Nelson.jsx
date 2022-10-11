@@ -1,7 +1,6 @@
 import { LayoutProject } from './LayoutProject'
 import { Container } from './Mini/Container'
 import { Description } from './Mini/Description'
-import { Image } from './Mini/Image'
 import { Title } from './Mini/Title'
 import { Video } from './Video'
 
@@ -11,10 +10,11 @@ export function Nelson () {
       <Video
         src='https://res.cloudinary.com/djc1umong/video/upload/v1663298377/spa_cctvbv.webm'
       />
-      {/* <Image src='nelson.webp' alt='Portada de https://nelson-peluqueria.com' /> */}
       <Container>
         <Title>Nelson Peluqueria</Title>
-        <Description github='https://github.com/leoncii/spa-nelson' url='https://nelson-peluqueria.com/'>Un sitio web para peluqueria, el cual muestra los trabajos realizados como Tintes, Balayage, Cortes de pelo. Con esta web mejoró la conversión de clientes que visitaban la web segun datos de google analytics</Description>
+        <Description github='https://github.com/leoncii/spa-nelson' url='https://nelson-peluqueria.com/'>
+          Sitio web de peluquería, muestra los trabajos realizados a la clientela como: Tintes, Balayages, Cortes de pelo, etc. Esta web mejoró la conversión de clientes al negocio, tiene Google Analytics y un bot de mensajes al Whatsapp del dueño.
+        </Description>
       </Container>
     </LayoutProject>
   )

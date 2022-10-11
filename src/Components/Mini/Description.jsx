@@ -4,7 +4,8 @@ import { Gh } from '../Svg/Gh'
 export function Description ({ github, url, children, only }) {
   return (
     <div className={`w-full max-w-xl mx-[auto] ${only && 'md:w-[720px]'}`}>
-      <p className='text-lg'>{children}</p>
+      <p className='text-lg leading-relaxed tracking-wide'>{children}
+      </p>
       {
         !only &&
           <div className='flex w-full mx-[auto] justify-center my-4'>

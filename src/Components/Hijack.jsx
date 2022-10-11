@@ -13,7 +13,7 @@ export function Hijack () {
       <Container direction>
         <Title>Hijack | Blog</Title>
         <Description github='https://github.com/leoncii/hijack' url='https://hijack.vercel.app'>
-        Guias (Writeups 📚) de máquinas en <a href='https://app.hackthebox.com' noreferer="true" target="_blank">Hack The Box</a>.
+          Guias (Writeups 📚) de máquinas en <a href='https://app.hackthebox.com' noreferer='true' target='_blank' rel='noreferrer'>Hack The Box</a>.
         </Description>
       </Container>
     </LayoutProject>
