@@ -11,9 +11,8 @@ export function About () {
         Sobre mí
       </Title5>
       <Description only>
-        Busco formar parte de un equipo de Desarrollo de Aplicaciones (Productos Digitales) que sean desafiantes, soy autodidacta hace cuatro años
-        me gusta mucho escribir código, y también artículos en mi blog para una pequeña comunidad de Discord y YouTube,
-        es importante estar en constante crecimiento poniendo a prueba tus habilidades y mejorando.
+        Busco formar parte de un equipo de Desarrollo de Aplicaciones (Productos Digitales) desafiantes, soy autodidacta hace cuatro años
+        me gusta escribir código, y artículos en mi blog para una pequeña comunidad de Discord y YouTube.
       </Description>
       <Title5 text='h-[88px]'>
         Habilidades

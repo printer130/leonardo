@@ -6,7 +6,9 @@ import { Video } from './Video'
 
 export function Pimpumpam () {
   return (
-    <LayoutProject direction>
+    <LayoutProject
+      to='blog' direction
+    >
       <Video
         src='https://res.cloudinary.com/djc1umong/video/upload/v1665536569/WhatsApp_Video_2022-10-11_at_9.00.42_PM_r4dwrq.webm'
       />
