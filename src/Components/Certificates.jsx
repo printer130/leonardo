@@ -3,7 +3,7 @@ import { Title5 } from './Mini/Title5'
 export function Certificates () {
   return (
     <div id='cert'>
-      <Title5>Algunos Certificados </Title5>
+      <Title5>Certificados </Title5>
       <div className='flex justify-center'>
         <div className='grid w-fit max-w-[1200px] justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overflow-y-auto h-[80vh]'>
           {itemData.map((item, i) => (

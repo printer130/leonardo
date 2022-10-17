@@ -9,7 +9,7 @@ export function Hero () {
         id='hero'
         className='bg-cyan-50 absolute w-full'
       />
-      <section className='flex bg-[#1c1b22] flex-col justify-center md:grid gap-4 md:grid-cols-2 pb-8 pl-4 md:pl-9 pr-4 md:pr-9 md:mb-0 h-[100vh] pt-[10vh]'>
+      <section className='flex bg-[#1c1b22] flex-col justify-center md:grid gap-4 md:grid-cols-2 pb-8 md:pl-9 md:pr-9 md:mb-0 h-[100vh] pt-[10vh]'>
         <header className='flex w-full xl:pl-[5rem]  pt-8 mx-[auto] md:ml-[0] flex-col md:h-[80vh] justify-center  max-w-2xl'>
           <h1 id='name' className='flex flex-wrap justify-center font-extrabold  leading-[76px] md:flex-col lg:flex-row'>
             <span id='leonardo' className='text-[#00ddff] text-6xl md:text-7xl'>Leonardo </span>
@@ -51,11 +51,11 @@ export function Hero () {
           {/* <picture clasHabsName='self-center'>
             <img id='photo' loading='eager' className='mb-8 object-cover mx-[auto] rounded-br-lg rotate-[25deg] scale-75 lg:scale-100' src='yo_transparent.webp' alt='Retrato de Leonardo' />
           </picture> */}
-          <div className='z-10 flex gap-4'>
+          <div className='z-10 flex gap-1 sm:gap-4'>
             {/* 1 */}
             <div>
               <a
-                className='card mb-4 cursor-pointer'
+                className='card cursor-pointer mb-4'
                 href='#u_lab'
               >
                 <div className='card-image'>
