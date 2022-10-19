@@ -122,7 +122,6 @@ export function Hero () {
                   </div>
                 </div>
               </a>
-
               <a
                 className='card cursor-pointer'
                 href='#spa'
@@ -194,7 +193,7 @@ export function Hero () {
           </div>
           <div
             id='buttons'
-            className='mx-[auto] w-full flex flex-col justify-between text-center '
+            className='mx-[auto] pt-4 sm:pt-0 w-full flex flex-col justify-between text-center '
           >
             <a href='/cv.pdf' download className='border-color-[#efe] border-2 border-solid md:mr-4 mb-4 relative h-[60px] inline-flex items-center justify-start  px-5 py-3 overflow-hidden font-bold rounded-full group w-full'>
               <span className='w-32 h-32 rotate-45 translate-x-36 -translate-y-8 absolute left-0 -top-8 bg-white opacity-[3%]' />
