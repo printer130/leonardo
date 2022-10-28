@@ -15,7 +15,8 @@ export function Crypto () {
       <Container direction>
         <Title>Crypto Market</Title>
         <Description github='https://github.com/leoncii' url='https://play.google.com/store/apps/details?id=com.LTB_144.CryptoMarket'>
-          App hecha con React Native y subida a la PlayStore muestra los precios actuales de las criptomonedas y las compara con otras plataformas.
+          Hecho con React Native y subida a la PlayStore
+          muestra los precios actuales de las criptomonedas y las compara con otras plataformas.
         </Description>
       </Container>
     </LayoutProject>

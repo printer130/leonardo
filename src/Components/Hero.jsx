@@ -48,14 +48,11 @@ export function Hero () {
           </div>
         </header>
         <div className='md:flex items-center self-center md:flex-row max-w-[1200px] flex flex-col place-content-center'>
-          {/* <picture clasHabsName='self-center'>
-            <img id='photo' loading='eager' className='mb-8 object-cover mx-[auto] rounded-br-lg rotate-[25deg] scale-75 lg:scale-100' src='yo_transparent.webp' alt='Retrato de Leonardo' />
-          </picture> */}
           <div className='z-10 flex gap-1 sm:gap-4'>
             {/* 1 */}
             <div>
               <a
-                className='card cursor-pointer mb-4'
+                className='card cursor-pointer'
                 href='#u_lab'
               >
                 <div className='card-image'>
@@ -100,7 +97,7 @@ export function Hero () {
               </a>
             </div>
             {/* 2 */}
-            <div className='pt-6'>
+            <div className=''>
               <a
                 className='card mb-4 cursor-pointer'
                 href='#gym'
@@ -144,8 +141,7 @@ export function Hero () {
             </div>
 
             {/* 3 */}
-            <div className='pt-3'>
-
+            <div className=''>
               <a
                 className='card mb-4 cursor-pointer'
                 href='#blog'
@@ -227,8 +223,6 @@ export function Hero () {
             </a>
           </div>
         </div>
-        <div id='circle' />
-        <div id='circle_' />
       </section>
     </>
   )

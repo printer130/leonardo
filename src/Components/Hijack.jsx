@@ -16,7 +16,7 @@ export function Hijack () {
       <Container direction>
         <Title>Hijack | Blog</Title>
         <Description github='https://github.com/leoncii/hijack' url='https://hijack.vercel.app'>
-          Resolución de máquinas en <a href='https://app.hackthebox.com' noreferer='true' target='_blank' rel='noreferrer'>Hack The Box</a>, hechas para una comunidad en Discord.
+          Resolución de máquinas en <a href='https://app.hackthebox.com' noreferer='true' target='_blank' rel='noreferrer'>Hack The Box </a>para una comunidad de discord.
         </Description>
       </Container>
     </LayoutProject>
