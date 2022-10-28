@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-/*import Typewriter from '../../node_modules/typewriter-effect/dist/core'*/
+/* import Typewriter from '../../node_modules/typewriter-effect/dist/core' */
 import Typewriter from 'typewriter-effect/dist/core'
 
 export const Editor = () => {

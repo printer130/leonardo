@@ -8,6 +8,7 @@ export function Video ({ src = '' }) {
       width={320}
       loop
       src={src}
+      className='p-4'
       playsInline
     >
 

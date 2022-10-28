@@ -10,6 +10,7 @@ export function Nelson () {
       to='spa'
     >
       <Video
+        className='p-4'
         src='https://res.cloudinary.com/djc1umong/video/upload/v1663298377/spa_cctvbv.webm'
       />
       <Container>
