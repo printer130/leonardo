@@ -6,9 +6,10 @@ import { Layout } from './Components/Layout'
 import { Proyects } from './Components/Proyects'
 import TypeWriting from './Components/TypeWriting'
 import { Editor } from './Components/Editor'
+import { Stack } from './Components/Stack'
 
 function App () {
-  console.log('2')
+  console.log('Esto es un log 2 :)')
   return (
     <>
       <Hero />
@@ -17,6 +18,7 @@ function App () {
         <Proyects />
         <About />
         <TypeWriting />
+        <Stack />
         {/* <Certificates /> */}
       </Layout>
       <Footer />

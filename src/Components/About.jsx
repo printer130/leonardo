@@ -17,7 +17,7 @@ export function About () {
         Habilidades
       </Title5>
       <Description only>
-        <Agree /> Habilidad para plasmar requerimientos del cliente en soluciones técnicas a traves de metodologias agiles.
+        <Agree /> Habilidad para plasmar requerimientos del cliente en soluciones técnicas a través de metodologías ágiles.
       </Description>
       <Description only>
         <Alone /> Habilidad para dominar tecnologías modernas rápidamente.

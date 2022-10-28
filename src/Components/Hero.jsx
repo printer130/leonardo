@@ -21,8 +21,8 @@ export function Hero () {
           <div id='buttons1'>
             <a href='/cv.pdf' download className='border-color-[#efe] border-2 border-solid md:mr-4 mb-4 relative h-[60px] inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold rounded-full group w-full'>
               <span className='w-32 h-32 rotate-45 translate-x-36 -translate-y-8 absolute left-0 -top-8 bg-cyan-50 opacity-[3%]' />
-              <span className='absolute top-[55px] -left-[40px] w-[255px] md:w-[530px] md:rotate-[14deg] md:-left-[320px] h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-cyan-50 opacity-100 group-hover:translate-x-[50px] md:group-hover:translate-x-[250px' />
-              <span className='flex mx-[auto] justify-between  relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900'>
+              <span className='absolute top-[55px] -left-[40px] w-[255px] md:w-[530px] md:rotate-[14deg] md:-left-[320px] h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-cyan-50 opacity-100 group-hover:translate-x-[50px] md:group-hover:translate-x-[250px]' />
+              <span className='flex mx-[auto] justify-between relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900'>
                 <Svg />
                 <span
                   className='flex items-center w-full text-left ml-[7px]'
