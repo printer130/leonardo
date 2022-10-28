@@ -3,7 +3,7 @@ import { Gh } from '../Svg/Gh'
 
 export function Description ({ github, url, children, only }) {
   return (
-    <div className={`w-full max-w-xl mx-[auto] ${only && 'md:w-[720px]'}`}>
+    <div className={`w-full max-w-xl mx-[auto] text-left ${only && 'md:w-[720px]'}`}>
       <p className='text-lg leading-relaxed tracking-wide'>{children}
       </p>
       {
