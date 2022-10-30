@@ -57,8 +57,8 @@ export const Editor = () => {
   }
 
   return (
-    <div className='mt-8 max-w-[540px] max-h-[608px] mx-4 shadow-sm md:mx-[auto]'>
-      <div className='max-w-[486px] h-[300px] border-b border-x border-[#eaeaea] '>
+    <div className='py-8 max-w-[540px] max-h-[408px] mx-4 shadow-sm md:mx-[auto]'>
+      <div className='max-w-[486px] h-[150px] border-b border-x border-[#eaeaea] '>
         <div className='flex h-[46px] border-b border-[#eaeaea] border-solid'>
           <div className='flex h-[46px] w-[52px] justify-between items-center mx-[16px]'>
             <span className='block rounded w-3 h-3 bg-[#FF5F56]' />
