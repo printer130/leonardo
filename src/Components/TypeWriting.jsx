@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 /* import Typewriter from '../../node_modules/typewriter-effect/dist/core' */
 import Typewriter from 'typewriter-effect/dist/core'
-import { Heart } from '../../Icons/heart'
 import { Fire } from '../../Icons/Fire'
 import { date, dateTime } from '../../constants/time'
 import { newLineCmd } from '../../constants/image'
 
-export default function TypeWriting() {
+export default function TypeWriting () {
   const node = useRef()
   const [isVisible, setIsVisible] = useState(false)
 
@@ -70,13 +69,13 @@ export default function TypeWriting() {
       <div className='pwd'>
         <Fire />
         <span id='blockCode'>
-        ~/portfolio
-        <img src='github.webp' id='github' />
+          ~/portfolio
+          <img src='github.webp' id='github' />
           <span id='gitlog'> main </span>
           <span id='time'>6.59s</span>
         </span>
       </div>
-      <div id='nmap' ref={node} />
+      <div id='nmap' className='h-full mb-4 mx-[auto]' ref={node} />
     </>
   )
 }
