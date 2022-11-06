@@ -1,7 +1,7 @@
 export function LayoutProject ({ children, direction = null, to }) {
   return (
     <div
-      className={`flex w-full mb-24 items-center md:mb-44 flex-col-reverse place-content-center xl:flex-row ${direction && 'flex-row-reverse'}`}
+      className={`flex w-full items-center flex-col-reverse place-content-center xl:flex-row ${direction && 'flex-row-reverse'}`}
       id={to}
       name={to}
     >
