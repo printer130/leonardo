@@ -10,6 +10,10 @@
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "three": "^0.146.0",
+    "@react-three/drei": "8.7.4",
+    "@react-three/fiber": "7.0.25",
+    "@types/three": "0.137.0",
     "typewriter-effect": "2.18.2"
   },
   "devDependencies": {
